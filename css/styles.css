@@ -1,0 +1,340 @@
+
+body {
+	background: url('../img/woodbackground.jpeg');
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font: 15px/1.5 "Courier", Courier, monospace;
+	padding: 0;
+	margin: 0;
+}
+
+/* Global */
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.button_1{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+	border-radius: 3px;
+
+}
+
+/*Header **/
+
+
+#branding img{
+	float: left;
+	width: 120px;
+	margin-top: 15px;
+}
+
+#branding img:hover{
+	opacity: 0.5;
+}
+
+
+header nav{
+	float: right;
+	margin-top: 23px;
+}
+
+header .highlight, header .current a{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+h4{
+	text-align: center;
+	font-size: 14px;
+}
+
+
+/* Showcase */
+
+#showcase{
+	min-height: 400px;
+	text-align: center;
+	color: #ffffff;
+
+
+}
+
+#showcase img{
+	width: 500px;
+}
+#showcase h1{
+	margin-top: -70px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+/* Subscription */
+#subscription{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+
+#subscription h1{
+	float: left;
+
+}
+
+#subscription form{
+	float: right;
+	margin-top: 15px;
+
+}
+
+#contact-info input, textarea{
+	padding: 4px;
+	height:25px;
+	width: 250px;
+	font-size: 14px;
+	font: 15px/1.5 "Courier New", Courier, monospace;
+
+}
+
+/*Boxes*/
+
+
+
+#boxes{
+	margin-top: 20px;
+  	background: rgba(255, 255, 255, 0.40);
+  	border-radius: 3px;
+  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	color: black;
+}
+
+#boxes .box p{
+	font-size: 14px;
+}
+#boxes .box{
+	float:left;
+	text-align: center;
+	width:30%;
+	padding: 10px;
+
+}
+
+#boxes .box img{
+	width: 90px;
+}
+
+/*Sidebar */
+
+aside#sidebar{
+	float: right;
+	width: 25%;
+	margin-top: 60px;
+  	background: rgba(255, 255, 255, 0.40);
+  	border-radius: 3px;
+  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	color: black;
+	padding: 20px;
+}
+
+aside#sidebar img{
+	padding: 10px;
+  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  	border-radius: 3px;
+}
+
+
+/* Main-col */
+#main{
+	padding-top: 110px;
+}
+
+article#main-col{
+	float: left;
+	width: 65%;
+	margin-top: 20px;
+  	background: rgba(255, 255, 255, 0.40);
+  	border-radius: 3px;
+  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	color: black;
+	padding: 20px;
+}
+
+article#main-col-portfolio{
+	float: left;
+	width: 95%;
+	margin-top: 20px;
+	margin-right: 10px;
+  	background: rgba(255, 255, 255, 0.40);
+  	border-radius: 3px;
+  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	color: black;
+	padding: 20px;
+
+}
+/*   Contact */
+
+
+ul#contact-info li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #f4f4f4;
+  	border-radius: 10px;
+
+}
+
+ul#contact-info .info input, ul#contact-info .info textarea{
+	width: 90%;
+	padding: 5px;
+}
+
+ul#contact-info .info textarea{
+	height: 100px;
+
+}
+
+/**Gallery*/
+
+#wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#main .one-third img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+
+#main .one-third img:hover{
+	opacity: 0.8;
+}
+
+.one-third{
+	width: 29%;
+	float: left;
+	margin: 2%;
+}
+
+
+
+@media screen and (max-width: 1000px){
+	.one-third{
+		width: 98%;
+		margin: 1%;
+	}
+	
+	.one-third img{
+		padding-bottom: 4px;
+	}
+
+
+	.wrapper iframe{
+		width: 98%;
+		height: 100%;
+	}
+	#branding img{
+		display:none;
+	}
+	#showcase h1{
+		padding-top: 20px;
+		font-size:30px;
+	}
+	#showcase p{
+		font-size:18px;
+	}
+	#showcase img{
+		width:98%;
+		margin: 1%;
+		padding-bottom: 10px;
+	}
+	#boxes .box{
+		margin-left: -10px;
+	}	
+	article#main-col{
+		float:left;
+		width: 90%;
+	}
+	article#main-col-portfolio{
+		float:left;
+		width: 90%;
+	}
+
+	aside#sidebar{
+		float: left;
+		width: 90%;
+	}
+
+
+
+}
+
+	
+}
+@media screen and (max-width: 480px){
+	.one-third{
+		width: 98%;
+		margin: 1%;
+	}
+
+	#branding img{
+		display: none;
+	}
+	#showcase img{
+		width: 98%;
+		margin: 1%;
+	}
+	#showcase h1{
+		padding-top: 20px;
+		font-size:30px;
+	}
+	#showcase p{
+		font-size:18px;
+	}
+	#boxes .box{
+		margin-left: -10px;
+	}	
+	#boxes .box img{
+		width: 48%;
+	}
+	#boxes .box p{
+		font-size: 12px;
+	}
+	#boxes .box h3{
+		font-size: 14px;
+	}
+	article#main-col-portfolio{
+		float: left;
+		width: 50%;
+
+	}
+}
+footer{
+	padding: 5px;
+	margin-top: 20px;
+	color: #f4f4f4;
+	text-align: center;
+}
+
+
