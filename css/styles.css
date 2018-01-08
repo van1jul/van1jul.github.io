@@ -1,6 +1,6 @@
 
 body {
-	background: url('../img/woodbackground.jpeg');
+	background: url('../img/back-7.jpg');
 	background-attachment: fixed;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -8,9 +8,26 @@ body {
 	font: 15px/1.5 "Courier", Courier, monospace;
 	padding: 0;
 	margin: 0;
+	background-color: black;
+
 }
 
+/* Navigation Animation */
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+
 /* Global */
+
 
 .container{
 	width: 80%;
@@ -63,28 +80,49 @@ h4{
 	font-size: 14px;
 }
 
+h5{
+	font-size: 16px;
+	color: black;
+	padding: 25px;
+	font-weight: normal;
+}
 
+h6{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+h3{
+	color: black;
+	font-size: 25px;
+	text-align: center;
+}
 /* Showcase */
 
 #showcase{
 	min-height: 400px;
 	text-align: center;
 	color: #ffffff;
+	padding-top: 10%;
 
 
 }
 
 #showcase img{
 	width: 500px;
+
 }
 #showcase h1{
-	margin-top: -70px;
-	font-size: 55px;
+	margin-top: -60px;
+	font-size: 25px;
 	margin-bottom: 10px;
+	font-weight: normal;
 }
 
 #showcase p{
 	font-size: 20px;
+	font-weight: bold;
 }
 
 /* Subscription */
@@ -114,13 +152,54 @@ h4{
 
 }
 
+#cssTable4 td{
+	height: auto; 
+	width:100%;
+	text-align: center;
+}
+
+#cssTable3 td{
+	height: auto; 
+	width:33%;
+
+}
+
+#cssTable2 td{
+	height: auto; 
+	width:50%;
+}
+
+#cssTable td {
+	height: auto; 
+	width:70%;
+}
+
+#cssTable a{
+	text-decoration: none;
+	color: white;
+}
+#cssTable a:hover   {
+  font-weight:      normal;
+  color:            rgba(244, 231, 215, 0.90);
+  } 
+
+#cssTable2 a{
+	text-decoration: none;
+	color: white;
+}
+
+#cssTable2 a:hover   {
+  cursor: pointer;
+  } 
+
+
 /*Boxes*/
 
 
 
 #boxes{
 	margin-top: 20px;
-  	background: rgba(255, 255, 255, 0.40);
+  	background: rgba(222, 184, 135, 0.90);
   	border-radius: 3px;
   	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 	color: black;
@@ -141,6 +220,122 @@ h4{
 	width: 90px;
 }
 
+
+.column{
+
+    display: table-cell;
+}
+.col-container{
+	display: table;
+	width:100%;
+	table-layout: fixed;
+}
+
+.column-2{
+
+    display: table-cell;
+}
+.col-container-2{
+	display: table;
+	width:100%;
+	table-layout: fixed;
+
+}
+
+
+/* Main-col */
+#main{
+	padding-top: 110px;
+}
+
+#main h1{
+	font-size: 25px;
+	text-align: center;
+}
+
+#main p{
+	color: black;
+	padding: 70px;
+}
+
+
+
+.img-hover:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.autoResizeImage {
+    max-width: 98%;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.autoResizeImage2 {
+	padding: 10px;
+    max-width: 50%;
+    margin-top: -160px;
+  	margin-left: 200px; 
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  	border-radius: 1px;
+	background-color: white; 
+
+}
+
+.autoResizeImage3 {
+    max-width: 98%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  	border-radius: 1px;
+	background-color: white; 
+	padding: 10px;
+	width: 90%;
+
+}
+
+.autoResizeImage4 {
+    max-width: 98%;
+    height: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.autoResizeImage5 {
+    max-width: 98%;
+    height: auto;
+    width: 98%;
+    padding: 1px;
+}
+
+#text-info{
+	color: black;
+}
+
+article#main-col{
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+  	background: rgba(255, 255, 255, 0.40);
+  	border-radius: 3px;
+  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	color: black;
+	padding: 20px;
+}
+
+article#main-col-portfolio{
+	float: left;
+	width: 98%;
+	margin-top: 20px;
+	margin-right: 20px;
+  	background: rgba(244, 231, 215, 0.90);
+  	border-radius: 3px;
+  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	color: #e6e6e6;
+	padding: 20px;
+	  	animation: 1s ease-out 0s 1 slideInFromRight;
+
+
+}
 /*Sidebar */
 
 aside#sidebar{
@@ -157,38 +352,10 @@ aside#sidebar{
 aside#sidebar img{
 	padding: 10px;
   	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
-  	border-radius: 3px;
+  	border-radius: 1px;
+	background-color: white; 
 }
 
-
-/* Main-col */
-#main{
-	padding-top: 110px;
-}
-
-article#main-col{
-	float: left;
-	width: 65%;
-	margin-top: 20px;
-  	background: rgba(255, 255, 255, 0.40);
-  	border-radius: 3px;
-  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-	color: black;
-	padding: 20px;
-}
-
-article#main-col-portfolio{
-	float: left;
-	width: 95%;
-	margin-top: 20px;
-	margin-right: 10px;
-  	background: rgba(255, 255, 255, 0.40);
-  	border-radius: 3px;
-  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-	color: black;
-	padding: 20px;
-
-}
 /*   Contact */
 
 
@@ -217,6 +384,14 @@ ul#contact-info .info textarea{
 #wrapper{
 	max-width: 1200px;
 	margin: 0 auto;
+
+}
+
+#main .front-show img{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+
 }
 
 #main .one-third img{
@@ -225,6 +400,9 @@ ul#contact-info .info textarea{
 	height: auto;
 	width: auto;
 	margin-bottom: -4px;
+    border-radius: 4px;
+	border: 1px solid #FAEBD7;
+
 }
 
 #main .one-third img:hover{
@@ -237,9 +415,177 @@ ul#contact-info .info textarea{
 	margin: 2%;
 }
 
+.text{
+	font-size: 25px;
+	color: yellow;
+}
+.text-1{
+	font-size: 14px;
+	padding-left: 50px;
+	padding-right:50px; 
+	padding-top: 60px;
+}
+.text-2{
+	font-size: 14px;
+	padding-left: 50px;
+	padding-right:50px; 
+	padding-top: 20px;
+}
+
+.text-3{
+	font-size: 14px;
+	padding-left: 50px;
+	padding-right:50px; 
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+/* Arrows*/
+
+.button {
+    position: relative;
+    border: 3px solid #fff;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.button:hover {
+	cursor: pointer;	
+}
+.button span {
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 11px;
+    background: #fff;
+    transition: 0.4s ease;
+}
 
 
-@media screen and (max-width: 1000px){
+
+.button span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(135deg);
+    left: 15%;
+    bottom: 35%;
+}
+
+.button span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+.button span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 15%;
+    bottom: 54%;
+}
+
+.button span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.button:hover span:nth-child(1) {
+    transform: rotate(-45deg);
+}
+
+.button:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.button:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.button:hover span:nth-child(4) {
+    transform: rotate(-135deg);
+}
+
+/*Back Button */
+.buttonback {
+    position: relative;
+    border: 3px solid #fff;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border-radius: 100%;
+}
+.buttonback:hover {
+	cursor: pointer;	
+}
+.buttonback span {
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 11px;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+
+
+.buttonback span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 10%;
+    bottom: 35%;
+}
+
+.buttonback span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 40%;
+    bottom: 35%;
+}
+
+.buttonback span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 10%;
+    bottom: 54%;
+}
+
+.buttonback span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 40%;
+    bottom: 54%;
+}
+
+.buttonback:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.buttonback:hover span:nth-child(2) {
+    transform: rotate(-135deg);
+}
+
+.buttonback:hover span:nth-child(3) {
+    transform: rotate(135deg);
+}
+
+.buttonback:hover span:nth-child(4) {
+    transform: rotate(135deg);
+}
+
+
+@media screen and (max-width: 800px){
 	.one-third{
 		width: 98%;
 		margin: 1%;
@@ -286,11 +632,15 @@ ul#contact-info .info textarea{
 		width: 90%;
 	}
 
+	.hide-me{
+		display: none;
+	}
+	#cssTable2 td{
+		border: 0px;
+		border-bottom: 1px;
+		border-style: outset ; 
+	}
 
-
-}
-
-	
 }
 @media screen and (max-width: 480px){
 	.one-third{
@@ -327,14 +677,18 @@ ul#contact-info .info textarea{
 	article#main-col-portfolio{
 		float: left;
 		width: 50%;
-
 	}
+	
+
 }
 footer{
-	padding: 5px;
-	margin-top: 20px;
-	color: #f4f4f4;
-	text-align: center;
+	bottom: 0;
+	right: 0;
+	left: 0;
+    color: #e4e4e4;
+    padding: 0.5em 0;
+    position: static;
+    text-align: center;
 }
 
 
