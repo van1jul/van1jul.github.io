@@ -595,11 +595,19 @@ ul#contact-info .info textarea{
 		padding-bottom: 4px;
 	}
 
-
 	.wrapper iframe{
 		width: 98%;
 		height: 100%;
 	}
+
+	.container iframe{
+		width: 98%;
+		margin-top: -100px; 
+		margin-bottom: -100px;
+	}
+
+
+
 	#branding img{
 		display:none;
 	}
@@ -674,10 +682,7 @@ ul#contact-info .info textarea{
 	#boxes .box h3{
 		font-size: 14px;
 	}
-	article#main-col-portfolio{
-		float: left;
-		width: 50%;
-	}
+	
 	
 
 }
