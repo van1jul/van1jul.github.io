@@ -16,11 +16,10 @@ nav ul li a {
   display: block;
   padding: 0 29px;
   line-height: 60px;
-  color: #ffffff;
+  color: DimGrey;
   text-decoration: none;
 }
 nav ul li a:hover {
-  background: url('../img/highlight.png') no-repeat 5px 8px;
   color: #ffffff;
 }
 /*nav ul li a:not(:only-child):after {
