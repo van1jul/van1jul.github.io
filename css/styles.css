@@ -195,7 +195,7 @@ h3{
 	height: auto; 
 	width:33%;
     background-clip: padding-box;
-    padding: 30px;
+    padding: 10px;
     color: dimgrey;
 
 }
@@ -227,7 +227,7 @@ h3{
 #cssTable2 td{
 	height: auto; 
 	width:50%;
-	border-radius: 3px;
+	border-radius: 10px;
     background-clip: padding-box;
 
 }
@@ -274,7 +274,7 @@ h3{
 
 #cssTable2 a{
 	text-decoration: none;
-	color: Black;
+	color: black;
 }
 
 #cssTable2 a:hover   {
@@ -460,7 +460,7 @@ article#main-col-portfolio{
 	width: 95%;
 	margin-top: 20px;
 	margin-right: 20px;
-  	background: rgba(255,250,240,0.9);
+  	background: rgba(255,250,240,1.0);
   	border-radius: 5px;
   	/*box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);*/
 	color: #e6e6e6;
@@ -592,18 +592,14 @@ ul#contact-info .info textarea{
 	font-size: 45px;
 	font-weight: 900;
 	color: dimgrey;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding:25px;
 }
 
 .font-2{
 	color: dimgrey;
 	font-size: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 30px;
+	padding-left: 25px;
+
 }
 .font-2:before{
 	content:url('../img/magnify.png');
@@ -613,20 +609,17 @@ ul#contact-info .info textarea{
 
 .font-3{
 	font-size: 16px;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 30px;
-	padding-bottom: 30px;
 	color: black;
 	/*width: 400px;*/
+	padding: 25px;
+
 }
 
 .font-4{
 	color: dimgrey;
 	font-size: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 30px;
+	padding-left: 25px;
+
 }
 .font-4:before{
 	content:url('../img/note.png');
@@ -637,9 +630,8 @@ ul#contact-info .info textarea{
 .font-5{
 	color: dimgrey;
 	font-size: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 30px;
+	padding-left: 25px;
+
 }
 .font-5:before{
 	content:url('../img/potato-icon.png');
@@ -853,6 +845,16 @@ ul#contact-info .info textarea{
 	#boxes .box{
 		margin-left: -10px;
 	}	
+
+	#boxes .box img{
+		width: 48%;
+	}
+	#boxes .box p{
+		font-size: 12px;
+	}
+	#boxes .box h3{
+		font-size: 14px;
+	}
 	article#main-col{
 		float:left;
 		width: 90%;
