@@ -592,13 +592,13 @@ ul#contact-info .info textarea{
 	font-size: 45px;
 	font-weight: 900;
 	color: dimgrey;
-	padding:25px;
+	padding:15px;
 }
 
 .font-2{
 	color: dimgrey;
 	font-size: 20px;
-	padding-left: 25px;
+	padding-left: 10px;
 
 }
 .font-2:before{
@@ -611,14 +611,14 @@ ul#contact-info .info textarea{
 	font-size: 16px;
 	color: black;
 	/*width: 400px;*/
-	padding: 25px;
+	padding: 10px;
 
 }
 
 .font-4{
 	color: dimgrey;
 	font-size: 20px;
-	padding-left: 25px;
+	padding-left: 10px;
 
 }
 .font-4:before{
@@ -630,7 +630,7 @@ ul#contact-info .info textarea{
 .font-5{
 	color: dimgrey;
 	font-size: 20px;
-	padding-left: 25px;
+	padding-left: 10px;
 
 }
 .font-5:before{
@@ -882,6 +882,56 @@ ul#contact-info .info textarea{
 		font-size: 20px;
 		text-align: center;
 	}
+	.font-1{
+	font-size: 45px;
+	font-weight: 900;
+	color: dimgrey;
+	padding:15px;
+}
+
+.font-2{
+	color: dimgrey;
+	font-size: 20px;
+	padding-left: 10px;
+
+}
+.font-2:before{
+	content:url('../img/magnify.png');
+	vertical-align: -25%;
+	padding-right: 16px;
+}
+
+.font-3{
+	font-size: 16px;
+	color: black;
+	/*width: 400px;*/
+	padding: 10px;
+
+}
+
+.font-4{
+	color: dimgrey;
+	font-size: 20px;
+	padding-left: 10px;
+
+}
+.font-4:before{
+	content:url('../img/note.png');
+	vertical-align: -25%;
+	padding-right: 16px;
+}
+
+.font-5{
+	color: dimgrey;
+	font-size: 20px;
+	padding-left: 10px;
+
+}
+.font-5:before{
+	content:url('../img/potato-icon.png');
+	vertical-align: -25%;
+	padding-right: 16px;
+}
 
 }
 @media screen and (max-width: 480px){
@@ -916,6 +966,56 @@ ul#contact-info .info textarea{
 	.column {
         width: 100%;
     }
+    	.font-1{
+	font-size: 45px;
+	font-weight: 900;
+	color: dimgrey;
+	padding:15px;
+}
+
+.font-2{
+	color: dimgrey;
+	font-size: 20px;
+	padding-left: 10px;
+
+}
+.font-2:before{
+	content:url('../img/magnify.png');
+	vertical-align: -25%;
+	padding-right: 16px;
+}
+
+.font-3{
+	font-size: 16px;
+	color: black;
+	/*width: 400px;*/
+	padding: 10px;
+
+}
+
+.font-4{
+	color: dimgrey;
+	font-size: 20px;
+	padding-left: 10px;
+
+}
+.font-4:before{
+	content:url('../img/note.png');
+	vertical-align: -25%;
+	padding-right: 16px;
+}
+
+.font-5{
+	color: dimgrey;
+	font-size: 20px;
+	padding-left: 10px;
+
+}
+.font-5:before{
+	content:url('../img/potato-icon.png');
+	vertical-align: -25%;
+	padding-right: 16px;
+}
 	
 
 }
