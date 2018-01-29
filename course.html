@@ -16,7 +16,6 @@
   		<link rel="stylesheet" href="./css/lightbox.css">
   		<link rel="stylesheet" href="./css/nav.css">
   		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  		<script src="https://fonts.googleapis.com/css?family=Open+Sans:400,700"></script>
 
 		<title>Vanessa J. Wan | UBC Course Registration System </title>
 	</head>
@@ -91,18 +90,16 @@
 						
 						<div class="font-1">PROCESS</div>
 						<div class="font-4">RESEARCH</div>
-						<div class="font-3">For our research, we sent out questionnaires to find out what were the main problems the students were facing when choosing their courses. This helped us explore the different problems they face at the beginning and end of each term.<br><br>
+						<div class="font-3">We sent out questionnaires to find out what were the main problems the students were facing when choosing their courses. This helped us explore the different problems they face at the beginning and end of each term.<br><br>
 
 						Once we were able to narrow down the problem areas, we conducted open-ended (unstructured) interviews and gave them a task to do in order to observe how they usually choose and add their courses to their worklist. We asked them to tell us what they were thinking (think-aloud) while doing the task in order to know what caused them some frustrations. After they were done, we asked some follow-up questions for more insight on their specific actions and emotions.
 						</div>
 						
 						<div class="row">
   							<div class="column">							
-  								<section class="img-hover" style="padding-left: 100px;">
 									<a class="example-image-link" id="lightbox-img" href="img/problems.png" data-lightbox="gallery-3" data-title="Problems students encounter when using the old registration system.">
 										<img class="autoResizeImage5" src="img/problems.png" alt="courses problems" title="course registration problems">
 									</a>
-								</section>
   							</div>
 
   							<div class="column">
@@ -119,19 +116,10 @@
 						</div>
 						
 						<div class="font-3">STORYBOARD</div>
-  							<div class="column-2">
-  								<div class="row">
+  							
 	  								<section class="one-half">
-										<a class="example-image-link" id="lightbox-img" href="img/story-ssc-1.png" data-lightbox="gallery-3" data-title="Problems"><img class="autoResizeImage4" src="img/story-ssc-1.png" alt="Team-Request-info" title="Team Request info"></a>
+										<a class="example-image-link" id="lightbox-img" href="img/storyboard.jpg" data-lightbox="gallery-3" data-title="Storyboard"><img class="autoResizeImage4" src="img/storyboard.jpg" alt="Storyboard" title="Storyboard"></a>
 									</section>
-  								</div>
-
-  								<div class="row">
-	  								<section class="one-half">
-										<a class="example-image-link" id="lightbox-img" href="img/story-ssc-2.png" data-lightbox="gallery-3" data-title="Solution"><img class="autoResizeImage4" src="img/story-ssc-2.png" alt="Team-Request-info" title="Team Request info"></a>
-									</section>
-  								</div>
-  							</div>
 
   						<div class="font-4">TASK EXAMPLES</div>
 						<div class="font-3">
@@ -152,12 +140,12 @@
 							We narrowed our metaphors down to: advisor, shopping cart, and budget. The advisor is like an academic advisor who can help users choose which courses will help them get closer to graduation. Users can add all the required courses for the semester into a “shopping cart” (worklist) and then “check-out” (register for the courses). Users can also see if the courses in the cart will balance overall like a budget.
 						</div>
 
-						<div class="font-4">CONCEPTUAL DESIGN</div>
+						<!-- <div class="font-4">CONCEPTUAL DESIGN</div>
 						<div class="font-3">
 							For our design concepts, we identified Student, Program, Course, Requirement, and Advisor as objects. We also identified their corresponding attributes and actions. Then we formed the relationships between the the objects and drew a mapping diagram for them.<br><br>
 
 							Lastly, we felt that our conceptual model would fit into all four interaction types. Some examples are save course sections to worklist (instructing), online academic advisor (conversing), drag/drop a course to the shopping cart or worklist to add (manipulating), and browse for courses and sections (exploring).
-						</div>
+						</div> -->
 
 						<div class="font-4">PAPER PROTOTYPING</div>
 						<div class="font-3">
@@ -178,19 +166,20 @@
 
 						<div class="font-4">DESIGN &amp; DEVELOPMENT</div>
 						<div class="font-3">
-							I took charge in designing the UI of the website. I chose Axure as a prototyping platform as it was cheap, easy, and fun to learn and use. I chose to create a fake set of courses where some have been completed, were in progress, and not yet completed. Since our participants were all Computer Science students, I designed the interface that generally fit their profile so that they could easily familiarize themselves with the prototype.<br><br>
+							I took charge in designing the UI of the website. I chose Axure as a prototyping platform as it was cheap, easy, and fun to learn and use. Since our participants were all Computer Science students, I designed the interface that generally fit their profile so that they could easily familiarize themselves with the prototype. I created a fake set of courses where some have been completed, were in progress, and not yet completed. <br><br>
 
-							Progress bars were designed so that degree progress could be viewed at a glance. The progress bar consists of 3 parts that correspond with our fake set of courses. I colour-coded them in reference to traffic lights to make it easier for users to remember the meaning of each colour. I have made the progress bar look like buttons in order to afford clicking of the mouse and hovering (to view grades) of the mouse pointer. This also clearly separates one course from another but at the same time preserves the aspect of a progress bar.<br><br>
+							Progress bars were designed so that degree progress could be viewed at a glance. The progress bar consists of 3 parts that correspond with the fake set of courses. I colour-coded them in reference to traffic lights to make it easier for users to remember the meaning of each colour. I have made the progress bar look like buttons in order to afford clicking of the mouse and hovering (to view grades) of the mouse pointer. This also clearly separates one course from another but at the same time preserves the aspect of a progress bar.<br><br>
 
-							As for the list of courses that could not fit in one progress bar, I decided to make the progress bar expandable so as to compress the list of courses in one pane. I used the Advisor's graduation cap to bring the user's attention to a red bar (i.e, not yet completed requirement) to show that the Advisor has course suggestions. When previewing the course, I used a blue colour to show the changes when adding he course to their degree.
+							As for the list of courses that could not fit in one progress bar, I decided to make the progress bar expandable so as to compress the list of courses in one pane. I used the Advisor's graduation cap to bring the user's attention to a red bar (i.e, not yet completed requirement) to show that the Advisor has course suggestions. When previewing the course, I used a blue colour to show the changes when adding the course to their degree.
 
 							<div class="font-3">Medium Fidelity Prototype DEMO</div>
 								<iframe width="560" height="315" src="https://www.youtube.com/embed/jzH3arBhz9Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 						</div>
 
 						<div class="font-4">USER TESTING</div>
-						<div class="font-3">From the questionnaire we were able to recruit four participants for our study. They were all undergraduate computer science students with at least one year left in their degree. We observed them as they completed the task of selecting a 300­ level CPSC elective course that would fulfill their degree requirements using our prototype while thinking aloud. We did not give them any further instructions than that because we did not want to give bias that would contaminate our results for the first evaluation goal. We did help them if they got stuck at any point. Afterwards we asked them a series of post­task questions designed to determine the usability of our prototype.<br><br>
-						Finally, we came together as a team to form affinity diagrams. We were able to draw common patterns and themes from the diagrams for qualitative analysis and determine the outcomes of our evaluation goals.
+						<div class="font-3">From the questionnaire we were able to recruit four participants for our study. They were all undergraduate Computer Science students with at least one year left in their degree. We observed them as they completed the task of selecting a 300­-level CPSC elective course that would fulfill their degree requirements using our prototype while thinking aloud.<br><br>
+
+						We then came together as a team to form affinity diagrams. We were able to draw common patterns and themes from the diagrams for qualitative analysis and determine the outcomes of our evaluation goals.
 						</div>
 
 						<div class="font-4">DESIGN ITERATIONS</div>
@@ -204,14 +193,22 @@
 							</ul>
 							
 							<strong>Consistency:</strong><br>
-								<ul>
-									<li>“Preview course” was poorly worded and users had to guess its meaning. All users understood its intended purpose in the end but they were first confused by the phrasing and second, misinterpreted the meaning of the blue colouring on the next page. This suggests a gulf of evaluation that needs to be rectified by either re­phrasing the button or re­designing the preview page. From this we learned that users form mental models that differ from developers and we cannot assume that they are all similar to one another.</li>
-								</ul>
+							<ul>
+								<li>“Preview course” was poorly worded and users had to guess its meaning. All users understood its intended purpose in the end but they were first confused by the phrasing and second, misinterpreted the meaning of the blue colouring on the next page. This suggests a gulf of evaluation that needs to be rectified by either re­phrasing the button or re­designing the preview page. From this we learned that users form mental models that differ from developers and we cannot assume that they are all similar to one another.</li>
+							</ul>
 						</div>
 
 						<div class="font-4">UPDATED DESIGN - DEMO</div>
 						<div class="font-3">
-							After taking into account of the feedback received. I have re-designed the improved website and chose to have everything in one page.
+							After taking into account of the feedback received, I have re-designed the website:
+
+							<ul>
+								<li>I placed every thing in one page since our goal was to avoid opening multiple pages to avoid confusion.</li>
+								<li>I combined all the courses in a list/table where the student can see at a glance the courses he has taken, the courses he is currently taking and the courses he has yet to complete/choose.</li>
+								<li>I removed the button "Preview Course" button and replaced it with clickable courses where when you click on a course, it applies the changes immediately.</li>
+								<li>I omitted the Clippy-like character and replaced it with an explanation bubble to give it a more professional layout.</li>
+							</ul>
+
 						</div>
 
 						<div class="vid-block">
@@ -219,6 +216,7 @@
 								<source src="videos/ssc-demo.mp4" type="video/mp4">
 							</video>
 						</div>
+
 
 						<div class="font-4">What I learned</div>
 						<div class="font-3">
